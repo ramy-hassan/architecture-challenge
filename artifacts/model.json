@@ -1,0 +1,159 @@
+{
+  "id": "offersComponent",
+  "name": "OffersList",
+  "title": "Offers to US",
+  "fields": [
+    {
+      "name": "expirationDate",
+      "title": "Expiration Date",
+      "type": "calendar",
+      "display": "dateTime"
+    },
+    {
+      "name": "offersList",
+      "title": "Offers Details",
+      "type": "list",
+      "valuesObjType": "component",
+      "valuesObjComponentID": "offerItemComponent",
+      "componentStructure": {
+        "name": "offerItem",
+        "type": "row",
+        "cells": [
+          {
+            "name": "origin",
+            "title": "Origin",
+            "type": "string",
+            "vaidations": [
+              {
+                "required": true
+              }
+            ]
+          },
+          {
+            "name": "destination",
+            "title": "Destination",
+            "type": "string",
+            "vaidations": [
+              {
+                "required": true
+              }
+            ]
+          },
+          {
+            "name": "pricebefore",
+            "title": "Price Before",
+            "type": "number",
+            "subType": "decimal",
+            "vaidations": [
+              {
+                "required": true
+              }
+            ]
+          },
+          {
+            "name": "priceAfter",
+            "title": "Price After",
+            "type": "number",
+            "subType": "decimal",
+            "vaidations": [
+              {
+                "required": true
+              }
+            ]
+          },
+          {
+            "name": "destinationLink",
+            "title": "Destination Link",
+            "type": "string",
+            "subType": "url",
+            "vaidations": [
+              {
+                "required": true
+              }
+            ]
+          }
+        ]
+      },
+      "vaidations": [
+        {
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "OffersImage",
+      "title": "Offer Image",
+      "type": "media",
+      "subType": "image",
+      "vaidations": [
+        {
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "priceRange",
+      "title": "Price Range",
+      "type": "number",
+      "subType": "decimal",
+      "display": "numberRange",
+      "validations": [
+        {
+          "minValue": "100"
+        }
+      ]
+    },
+    {
+      "name": "reservationLink",
+      "type": "string",
+      "subtype": "url",
+      "disabled": true
+    },
+    {
+      "name": "offerPolygon",
+      "title": "Offers Area",
+      "type": "geometry",
+      "subType": "polygon",
+      "validation": [
+        {
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "offerTermsAndConditions",
+      "title": "Terms And Condition",
+      "type": "string",
+      "validations": [
+        {
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "publishDate",
+      "title": "Publish Date",
+      "type": "calendar",
+      "display": "date"
+    },
+    {
+      "name": "destinationHtml",
+      "type": "htmlFragment"
+    }
+  ],
+  "info": {
+    "creattionDateTime": "2021-02-10T06:56:51.826Z",
+    "lastUpdateDateTime": "2021-02-11T09:34:19.522Z",
+    "environment": "QA",
+	"tags":["sales","offers"],
+    "resourceGroup": "offersRG",
+    "company": "xyzAirReservation",
+    "version": 2,
+    "createdBy": {
+      "username": "ramyhassan"
+    },
+    "publishedBy": {
+      "username": "ramyhassan"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+	  "id": "offersComponent",
+      "name": "OffersList",
+      "title": "Offers to US",
+      "info": {
+        "creattionDateTime": "2021-02-10T06:56:51.826Z",
+        "lastUpdateDateTime": "2021-02-12T09:34:19.522Z",
+        "environment": "QA",
+		"tags": ["offers","sales"],
+        "resourceGroup": "offersRG",
+        "company": "xyzAirReservation",
+        "publishedVersion": 1,
+        "currentVersion": 2,
+        "createdBy": {
+          "username": "ramyhassan"
+        },
+        "publishedBy": {
+          "username": "ramyhassan"
+        }
+      },
+      "fieldsContents": {
+        "expirationDate": "2021-02-12T07:04:59.609Z",
+        "offersList": [
+          {
+            "origin": "Dubai",
+            "destination": "New Gersy",
+            "priceBefore": "1000.5",
+            "priceAfter": "950",
+            "destinationLink": "https://google.com/newgersy"
+          },
+          {
+            "origin": "Dubai",
+            "destination": "Texas",
+            "priceBefore": "1500",
+            "priceAfter": "1000",
+            "destinationLink": "https://google.com/texas"
+          },
+          {
+            "origin": "Dubai",
+            "destination": "NY",
+            "priceBefore": "2000",
+            "priceAfter": "1000",
+            "destinationLink": "https://google.com/newyork"
+          }
+        ],
+        "offerImage": {
+          "type": "link",
+          "assetId": "656522656"
+        },
+        "priceRange": {
+          "from": "900",
+          "to": "2000"
+        },
+        "reservationLink": "https://reserve",
+        "offersPolygon": {
+          "type": "polygon",
+          "coordinates": [
+            [
+              [
+                -71.861572265625,
+                41.95744765908283
+              ],
+              [
+                -72.8228759765625,
+                42.14100501649703
+              ],
+              [
+                -73.56994628906249,
+                41.701627343789205
+              ],
+              [
+                -73.1854248046875,
+                41.19725651800892
+              ],
+              [
+                -72.23785400390625,
+                41.31701278537454
+              ]
+            ]
+          ]
+        },
+        "offerTermsAndConditions": " ldjlsja lkdfhasklj dfsakjadflkjsda ljfakljsakjasdj klajfljdlaj fadjlskajads",
+        "destinationHtml": {
+          "type": "link",
+          "assetId": "668676"
+        }
+      },
+      "assets": [
+        {
+          "id": "656522656",
+          "link": "https://cdn.image.png"
+        },
+        {
+          "id": "668676",
+          "link": "https://cdn.embeded.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+swagger: "2.0"
+info:
+  description: "This API to get Components of Any type from ACME headless CMS"
+  version: "1.0.0"
+  title: "Components Inquiry"
+
+host: "google.com"
+basePath: "/acmecms/component-inquiry/v1"
+tags:
+- name: "cmsComponents"
+schemes:
+- "https"
+paths:
+  /{environmentID}/component/{componentID}:
+    get:
+      summary: "Get Specific comonent"
+      description: "Returns specific component"
+      operationId: "search"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "header"
+        name: company
+        type: string
+        required: true
+        description: "The company which will send the request"
+        
+      - in: "header"
+        name: transactionId
+        type: string
+        required: true
+        description: "Unique transaction ID"
+        
+      - in: "header"
+        name: username
+        type: string
+        required: true
+        description: "username request the contents"
+        
+      - name: "environmentID"
+        in: "path"
+        required: true
+        type: string
+        description: "environment Id"
+        
+      - name: "componentID"
+        in: "path"
+        required: true
+        type: string
+        description: "required component Id"
+        
+      - in: "query"
+        name: "token"
+        required: true
+        type: string
+        description: "Token"
+        
+      responses:
+        '200':
+          description: Success Result
+          schema:
+                $ref: '#/definitions/ComponentsList'
+        '400':
+          description: "Bad Request, this will be returned if the request has any missing or invalid parameter"
+          schema:
+                $ref: '#/definitions/ErrorResponse'
+        '500':
+          description: Internal System error
+          schema:
+                $ref: '#/definitions/ErrorResponse'
+                
+  /{environmentID}/component/:
+    get:
+      summary: "Get Specific comonent By Tag or resource group"
+      description: "Returns specific component"
+      operationId: "searchByTag"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "header"
+        name: company
+        type: string
+        required: true
+        description: "The company which will send the request"
+        
+      - in: "header"
+        name: transactionId
+        type: string
+        required: true
+        description: "Unique transaction ID"
+        
+      - in: "header"
+        name: username
+        type: string
+        required: true
+        description: "username request the contents"
+        
+      - name: "environmentID"
+        in: "path"
+        required: true
+        type: string
+        description: "environment Id"
+        
+      - in: "query"
+        name: "tag"
+        required: false
+        type: string
+        description: "tag"
+        
+      - in: "query"
+        name: "resourceGroup"
+        required: false
+        type: string
+        description: "resourceGroup"
+        
+      - in: "query"
+        name: "token"
+        required: true
+        type: string
+        description: "Token"
+        
+      responses:
+        '200':
+          description: Success Result
+          schema:
+                $ref: '#/definitions/ComponentsList'
+        '400':
+          description: "Bad Request, this will be returned if the request has any missing or invalid parameter"
+          schema:
+                $ref: '#/definitions/ErrorResponse'
+        '500':
+          description: Internal System error
+          schema:
+                $ref: '#/definitions/ErrorResponse'
+
+      security:
+      - basicAuth: [] 
+
+
+securityDefinitions:
+  basicAuth:
+    type: basic
+
+
+definitions:
+  ComponentsList:
+      type: object
+      properties:
+        transactionId:
+          type: integer
+          description: Unique transaction ID
+        components:
+          type: array
+          items:
+            $ref: "#/definitions/Component"
+          description: List of components
+          
+  Component:
+    type: object
+    properties:
+      name:
+        type: string
+      title:
+        type: string
+      info:
+        type: object
+        $ref: '#/definitions/Info'
+      fieldsContents:
+        type: string
+        format: json
+        
+  Info:
+    type: object
+    properties:
+      id:
+        type: string
+      creattionDateTime:
+        type: string
+        format: date-time
+      lastUpdateDateTime:
+        type: string
+        format: date-time
+      environment:
+        type: string
+      resourceGroup:
+        type: string
+      company:
+        type: string
+      publishedVersion:
+       type: integer
+      currentVersion:
+        type: integer
+      createdBy:
+        type: object
+        $ref: "#/definitions/User"
+      publishedBy:
+        type: object
+        $ref: "#/definitions/User"
+        
+        
+  User:
+   type: object
+   properties:
+    username:
+     type: string
+
+          
+  ErrorResponse:
+     type: object
+     properties:
+       errorCode:
+        type: string
+        description: error code
+       message:
+        type: string
+        description: user friendly message
+        
