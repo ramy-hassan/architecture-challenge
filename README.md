@@ -99,14 +99,14 @@ ________________________________________________________________________________
 - Supports Geo-based search including Polygons and locations.
 - Supports Full-Text search as part of Mongo Atlas.
 
-##### Geofences POC
+##### <ins>Geofences POC</ins>
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo2.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo3.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo4.PNG)
-![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo5.PNG)
 
-##### Peroformance Enhancements through Indexes POC
+
+##### <ins>Peroformance Enhancements through Indexes POC</ins>
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance1.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance2.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance3.PNG)
