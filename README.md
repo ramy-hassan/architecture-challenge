@@ -86,13 +86,19 @@ ________________________________________________________________________________
 ### Data Store
 - I started to dive here, as it consider the most important component in this Use case.
 - What I want is to Store data in JSON for <b>felixable structure</b>, and <b>fast data reading</b> to fulfill the high traffic.
-- What I want also 
-- But is it the most appropriate one to use, we have many other options.
-- As 
+- At this point I thought directly towards <b>NOSQL</b> and <b>Mongo DB</b> specifically, but does is the appropriate decission as we have many other options.
+- I started to compare between some options like Casssandra, Redis And MongoDB.
+- Any archticture decission is a kind of TradeOFF to get the best fit for your use case.
+- I found that MongoDB is the most fit here.
 
+#### Why Mongo DB here
+- Felixable JSON Structure: We can return the JSON objects directly from DB to the client through our APIs without doing any processing or conversions
+- Scalability: Will help us as traffic is increasing.
+- High Performance: We should accomodate 1000s of requests per second, which can be reached with some tuning.
+- Caching: Support caching data in RAM, which will help us to avoid going to different caching DB to speed up the response time.
+- Supports Geo-based search including Polygons and locations.
+- Supports Full-Text search as part of Mongo Atlas.
 
-
-### Why Mongo DB
 ##### Geofences POC
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo2.PNG)
@@ -100,7 +106,7 @@ ________________________________________________________________________________
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo4.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo5.PNG)
 
-# Peroformance Enhancements through Indexes POC
+##### Peroformance Enhancements through Indexes POC
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance1.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance2.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance3.PNG)
