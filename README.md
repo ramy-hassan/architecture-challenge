@@ -77,14 +77,16 @@ ________________________________________________________________________________
 
 #### Design some APIs for Service discovery
 - Based on the above saved contents I started design couple of APIs to get component by Tag and By ID.
-- Below snapshot from Swagger Editor and the link of the Swagger API design.
+- Below snapshot from Swagger Editor.
+- ![Link For Swagger Sample API](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentsInquiryAPI.yaml)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentsInquirySwagger.PNG)
-![alt Swagger Sample API](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentsInquiryAPI.yaml)
+
+______________________________________________________________________________________________________________________________________________________________
+
+### Data Store
 
 
 
-
-![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/allTogether.png)
 
 ### Why Mongo DB
 ##### Geofences POC
@@ -104,4 +106,8 @@ ________________________________________________________________________________
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance7.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance8.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/componentsPefromance9.PNG)
+
+
+
+![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/allTogether.png)
 
