@@ -10,14 +10,16 @@ I approache on of my firends which was working before in a service provider for 
 Then I went deeper to gain information about CMS as a concept and what should it provide.
 
 ### Model Design
+##### Relational
 - I started to design below ERD to describe whate are the main entities and the relation between them.
 - I tried to make it as felixable as possible, but this lead to more complexity and more relations, which is not our target here.
 - WOW, I got an Idea What if this structure in <b>JSON</b>, it will be felixable as much as I want.
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ERD.png)
 
+##### Non Relational (JSON)
 - Then I started designing the JSON object.
 - Applying the model on a sample use case, which is creating offer list component.
-- Covering below Composition scenario and mostof the required elements in any component.
+- Covering <b>Composition</b> scenario and most of the required elements in any component.
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentModel.PNG)
 
