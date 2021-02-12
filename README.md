@@ -60,10 +60,13 @@ ________________________________________________________________________________
 - Applying the model on a sample use case, which is creating offer list component.
 - Covering <b>Composition</b> scenario and most of the required elements in any component.
 [Offer component model sample in JSON](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/model.json) 
+
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentModel.PNG)
 
-
-
+### How Content Manager will use this Model
+- I started to test this model logically, if it will fit with our requirements.
+- How content manager will render this model on the screen to fill the data ?
+- Let's draw a prototype as we are parsing this model and convert it to GUI components.
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMSGUI.png)
 
