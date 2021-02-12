@@ -121,5 +121,12 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________________
 ## All Together In ACTION !
 
-![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/allTogether.png)
+![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/allTogether%20(2).png)
 
+______________________________________________________________________________________________________________________________________________________________
+## Pending Points:
+
+- Comparing Custom solution with existing headless CMS in the market.
+- AWS/Azure/Hybird CLoud Archticture, including Network digram.
+- Load Test for MongoDB
+- Calculate Cost against ROI.
