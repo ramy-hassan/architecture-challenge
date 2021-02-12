@@ -43,7 +43,11 @@ This web Application should have FrontEnd & Backend, below is the backend portio
 
 - Publisher Service responsibility to publish what has been done either online or offline.
 - Here I added BPM workflow to enrich the publisher with approval process, which is mandatory to avoid content corruption by one person.
+
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Publisher.png)
+
+### Content Discovery APIs
+![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentDiscovery.png)
 
 ##### Non Relational (JSON)
 - Then I started designing the JSON object.
