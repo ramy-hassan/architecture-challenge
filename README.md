@@ -23,7 +23,12 @@ This web application should be responsible of the following:
 - Alow User to test what has been done.
 - Allow User to instantly publish the content or schedule it.
 
+##### Very High Level
+This web Application should have FrontEnd & Backend, below is the backend portions.
+* Backend will conist of independant decoupled Micro Services.
+* I did not consider Micro frontend, as the front end is not that huge to divide it into small portions, and take the burrden of manitaince.
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
+
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Modeler.png)
 
