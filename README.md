@@ -84,7 +84,11 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________________
 
 ### Data Store
-
+- I started to dive here, as it consider the most important component in this Use case.
+- What I want is to Store data in JSON for <b>felixable structure</b>, and <b>fast data reading</b> to fulfill the high traffic.
+- What I want also 
+- But is it the most appropriate one to use, we have many other options.
+- As 
 
 
 
