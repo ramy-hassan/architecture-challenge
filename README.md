@@ -2,7 +2,15 @@
 This read me document describe headless CMS archticture including some digrams explains the target design.
 I will describe step by step how I went through the challenge and the output for each step.
 
+### Business Understanding
+Before starting any architecture dive, you should understand well the customer needs.
+I approache on of my firends which was working before in a service provider for travel agencies, and understand what they are doing who are the stackholder for this business.
 
+### CMS Understanding
+Then I went deeper to gain information about CMS as a concept and what should it provide.
+
+### Model Design
+I started to design below ERD to allow
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ERD.png)
 
@@ -27,8 +35,8 @@ I will describe step by step how I went through the challenge and the output for
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/allTogether.png)
 
-# Why Mongo DB
-# Geofences POC
+### Why Mongo DB
+##### Geofences POC
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo2.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo3.PNG)
