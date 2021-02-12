@@ -24,7 +24,7 @@ This web application should be responsible of the following:
 - Alow User to test what has been done.
 - Allow User to instantly publish the content or schedule it.
 
-##### Very High Level
+##### <ins>Very High Level</ins>
 This web Application should have FrontEnd & Backend, below is the backend portions.
 * Backend will conist of independant decoupled Micro Services.
 * I did not consider Micro frontend, as the frontend here is not that huge to divide it into small portions, and take the burrden of manitaince.
@@ -32,12 +32,17 @@ This web Application should have FrontEnd & Backend, below is the backend portio
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
 
 ##### <ins>Going Deeper</ins>
-Modeler service responsibilty is to handle Content Types creation (Modeling Only).
+- Modeler service responsibility is to handle Content Types creation (Modeling Only).
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Modeler.png)
 
+- Content Manager Service responsibility to handle contents of the created Models.
+- I was planning to separate Testing in a tester service then decide to now overcomplicate things as some how testing is coupled to the contents.
+
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentManager.png)
 
+- Publisher Service responsibility to publish what has been done either online or offline.
+- Here I added BPM workflow to enrich the publisher with approval process, which is mandatory to avoid content corruption by one person.
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Publisher.png)
 
 ##### Non Relational (JSON)
