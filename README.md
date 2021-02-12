@@ -2,22 +2,22 @@
 This read me document describe headless CMS archticture including some digrams explains the target design.
 I will describe step by step how I went through the challenge and the output for each step.
 
-### Business Understanding
+## Business Understanding
 Before starting any architecture dive, you should understand well the customer needs.
 I approache on of my firends which was working before in a service provider for travel agencies, and understand what they are doing who are the stackholder for this business.
 
-### CMS Understanding
+## CMS Understanding
 Then I went deeper to gain information about CMS as a concept and what should it provide.
-
-### Model Design
-##### Relational
+______________________________________________________________________________________________________________________________________________________________
+## Model Design
+#### Relational
 - I started to design below ERD to describe whate are the main entities and the relation between them.
 - I tried to make it as felixable as possible, but this lead to more complexity and more relations, which is not our target here.
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ERD.png)
 - WOW, I got an Idea What if this structure in <b>JSON</b>, it will be felixable as much as I want, let's forward and we will see if it's good idea or not.
-
-### Content Manager WebApplication
+______________________________________________________________________________________________________________________________________________________________
+## Content Manager WebApplication
 This web application should be responsible of the following:
 - Allow User to Model the content Types (Components) with full felixabilty.
 - Allow the same User or diffrent User to add the content to the created components.
@@ -45,7 +45,7 @@ This web Application should have FrontEnd & Backend, below is the backend portio
 - Here I added BPM workflow to enrich the publisher with approval process, which is mandatory to avoid content corruption by one person.
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Publisher.png)
-
+______________________________________________________________________________________________________________________________________________________________
 ### Content Discovery APIs
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentDiscovery.png)
 
