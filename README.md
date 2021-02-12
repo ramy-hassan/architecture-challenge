@@ -20,10 +20,10 @@ Then I went deeper to gain information about CMS as a concept and what should it
 - Then I started designing the JSON object.
 - Applying the model on a sample use case, which is creating offer list component.
 - Covering <b>Composition</b> scenario and most of the required elements in any component.
-
+[Offer component model sample in JSON](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/model.json) 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentModel.PNG)
 
-[Offer component model sample in JSON](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/model.json) 
+
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
 
