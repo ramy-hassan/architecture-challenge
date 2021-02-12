@@ -13,6 +13,7 @@ Then I went deeper to gain information about CMS as a concept and what should it
 ##### Relational
 - I started to design below ERD to describe whate are the main entities and the relation between them.
 - I tried to make it as felixable as possible, but this lead to more complexity and more relations, which is not our target here.
+
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ERD.png)
 - WOW, I got an Idea What if this structure in <b>JSON</b>, it will be felixable as much as I want, let's forward and we will see if it's good idea or not.
 
@@ -26,9 +27,12 @@ This web application should be responsible of the following:
 ##### Very High Level
 This web Application should have FrontEnd & Backend, below is the backend portions.
 * Backend will conist of independant decoupled Micro Services.
-* I did not consider Micro frontend, as the front end is not that huge to divide it into small portions, and take the burrden of manitaince.
+* I did not consider Micro frontend, as the frontend here is not that huge to divide it into small portions, and take the burrden of manitaince.
+
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
 
+##### Going Deeper
+Modeler service responsibilty is to handle Content Types creation (Modeling Only).
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Modeler.png)
 
