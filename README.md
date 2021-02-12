@@ -87,7 +87,7 @@ ________________________________________________________________________________
 - I started to dive here, as it consider the most important component in this Use case.
 - What I want is to Store data in JSON for <b>felixable structure</b>, and <b>fast data reading</b> to fulfill the high traffic.
 - At this point I thought directly towards <b>NOSQL</b> and <b>Mongo DB</b> specifically, but does is the appropriate decission as we have many other options.
-- I started to compare between some options like Casssandra, Redis And MongoDB.
+- I started to compare between some options like Casssandra, Redis, Elastic Search And MongoDB.
 - Any archticture decission is a kind of TradeOFF to get the best fit for your use case.
 - I found that MongoDB is the most fit here, and below some POCs.
 
