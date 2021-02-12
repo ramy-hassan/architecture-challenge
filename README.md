@@ -98,7 +98,7 @@ ________________________________________________________________________________
 - Caching: Support caching data in RAM, which will help us to avoid going to different caching DB to speed up the response time.
 - Supports Geo-based search including Polygons and locations.
 - Supports Full-Text search as part of Mongo Atlas.
-
+______________________________________________________________________________________________________________________________________________________________
 ##### <ins>Geofences POC</ins>
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo.PNG)
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/mongodb/importgeo2.PNG)
