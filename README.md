@@ -31,7 +31,7 @@ This web Application should have FrontEnd & Backend, below is the backend portio
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
 
-##### Going Deeper
+##### <ins>Going Deeper</ins>
 Modeler service responsibilty is to handle Content Types creation (Modeling Only).
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Modeler.png)
