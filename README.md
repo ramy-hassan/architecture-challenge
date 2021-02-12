@@ -47,7 +47,11 @@ ________________________________________________________________________________
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Publisher.png)
 ______________________________________________________________________________________________________________________________________________________________
 ## Content Discovery APIs
-![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentDiscovery.png)
+- Content Discovery is the interface for all channels.
+- All of the API returned contents, but in different ways.
+- I tried to separate those APIs consedring the behaviour for each which is different and will help us later on in scalling them accordingly and choose the best technology fit with the behabiour.
+
+![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentDiscovery2.png)
 
 ##### Non Relational (JSON)
 - Then I started designing the JSON object.
