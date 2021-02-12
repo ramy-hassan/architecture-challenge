@@ -54,6 +54,7 @@ ________________________________________________________________________________
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentDiscovery2.png)
 
 ## Now It's time to decide data format and store !
+### Data format
 - As mentioned before, I figure out that relational DB will not give us the design felixability we need.
 - And the Idea is to use <b>JSON</b>
 - Then I started designing the JSON structure for creating a component.
@@ -63,19 +64,22 @@ ________________________________________________________________________________
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentModel.PNG)
 
-### How Content Manager will use this Model
+#### How Content Manager will use this Model
 - I started to test this model logically, if it will fit with our requirements.
 - How content manager will render this model on the screen to fill the data ?
 - Let's draw a prototype as we are parsing this model and convert it to GUI components.
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMSGUI.png)
 
+- It seems fine, now how Conent Manager will save the content after entering the information
+![alt offer component content sample](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/content.json)
+
+
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentsInquirySwagger.PNG)
 ![alt Swagger Sample API](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentsInquiryAPI.yaml)
 
 
 
-![alt offer component content sample](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/content.json)
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/allTogether.png)
 
