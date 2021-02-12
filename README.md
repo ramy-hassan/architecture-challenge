@@ -60,7 +60,7 @@ ________________________________________________________________________________
 - Then I started designing the JSON structure for creating a component.
 - Applying the model on a sample use case, which is creating offer list component.
 - Covering <b>Composition</b> scenario and most of the required elements in any component.
-[Offer component model sample in JSON](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/model.json) 
+- [Link for offer component model sample in JSON](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/model.json) 
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentModel.PNG)
 
@@ -71,10 +71,13 @@ ________________________________________________________________________________
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMSGUI.png)
 
-- It seems fine, now how Conent Manager will save the content after entering the information
-![alt offer component content sample](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/content.json)
+#### How Content Manager will save the contents
+- It seems fine, now how Conent Manager will save the content after entering the information.
+- [Link for offer component content sample](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/content.json)
 
-
+#### Design some APIs for Service discovery
+- Based on the above saved contents I started design couple of APIs to get component by Tag and By ID.
+- Below snapshot from Swagger Editor and the link of the Swagger API design.
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentsInquirySwagger.PNG)
 ![alt Swagger Sample API](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentsInquiryAPI.yaml)
 
