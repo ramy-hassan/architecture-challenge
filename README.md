@@ -8,7 +8,7 @@ I approache on of my firends which was working before in a service provider for 
 
 ## CMS Understanding
 Then I went deeper to gain information about CMS as a concept and what should it provide.
-______________________________________________________________________________________________________________________________________________________________
+
 ## Model Design
 #### Relational
 - I started to design below ERD to describe whate are the main entities and the relation between them.
@@ -16,7 +16,7 @@ ________________________________________________________________________________
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ERD.png)
 - WOW, I got an Idea What if this structure in <b>JSON</b>, it will be felixable as much as I want, let's forward and we will see if it's good idea or not.
-______________________________________________________________________________________________________________________________________________________________
+
 ## Content Manager WebApplication
 This web application should be responsible of the following:
 - Allow User to Model the content Types (Components) with full felixabilty.
@@ -30,23 +30,23 @@ This web Application should have FrontEnd & Backend, below is the backend portio
 * I did not consider Micro frontend, as the frontend here is not that huge to divide it into small portions, and take the burrden of manitaince.
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
-
+______________________________________________________________________________________________________________________________________________________________
 ##### <ins>Going Deeper</ins>
 - Modeler service responsibility is to handle Content Types creation (Modeling Only).
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Modeler.png)
-
+______________________________________________________________________________________________________________________________________________________________
 - Content Manager Service responsibility to handle contents of the created Models.
 - I was planning to separate Testing in a tester service then decide to now overcomplicate things as some how testing is coupled to the contents.
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentManager.png)
-
+______________________________________________________________________________________________________________________________________________________________
 - Publisher Service responsibility to publish what has been done either online or offline.
 - Here I added BPM workflow to enrich the publisher with approval process, which is mandatory to avoid content corruption by one person.
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Publisher.png)
 ______________________________________________________________________________________________________________________________________________________________
-### Content Discovery APIs
+## Content Discovery APIs
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentDiscovery.png)
 
 ##### Non Relational (JSON)
