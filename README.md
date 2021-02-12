@@ -119,7 +119,7 @@ ________________________________________________________________________________
 
 
 ______________________________________________________________________________________________________________________________________________________________
-## Content Discovery APIs
+## All Together In ACTION !
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/allTogether.png)
 
