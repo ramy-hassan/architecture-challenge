@@ -53,8 +53,10 @@ ________________________________________________________________________________
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentDiscovery2.png)
 
-##### Non Relational (JSON)
-- Then I started designing the JSON object.
+## Now It's time to decide data format and store !
+- As mentioned before, I figure out that relational DB will not give us the design felixability we need.
+- And the Idea is to use <b>JSON</b>
+- Then I started designing the JSON structure for creating a component.
 - Applying the model on a sample use case, which is creating offer list component.
 - Covering <b>Composition</b> scenario and most of the required elements in any component.
 [Offer component model sample in JSON](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/model.json) 
