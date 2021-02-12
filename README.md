@@ -21,7 +21,7 @@ Then I went deeper to gain information about CMS as a concept and what should it
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/componentModel.PNG)
 
-![alt offer component model sample](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/model.json)
+[Offer component model sample in JSON](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/model.json) 
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
 
