@@ -13,8 +13,23 @@ Then I went deeper to gain information about CMS as a concept and what should it
 ##### Relational
 - I started to design below ERD to describe whate are the main entities and the relation between them.
 - I tried to make it as felixable as possible, but this lead to more complexity and more relations, which is not our target here.
-- WOW, I got an Idea What if this structure in <b>JSON</b>, it will be felixable as much as I want.
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ERD.png)
+- WOW, I got an Idea What if this structure in <b>JSON</b>, it will be felixable as much as I want, let's forward and we will see if it's good idea or not.
+
+### Content Manager WebApplication
+This web application should be responsible of the following:
+- Allow User to Model the content Types (Components) with full felixabilty.
+- Allow the same User or diffrent User to add the content to the created components.
+- Alow User to test what has been done.
+- Allow User to instantly publish the content or schedule it.
+
+![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
+
+![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Modeler.png)
+
+![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentManager.png)
+
+![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Publisher.png)
 
 ##### Non Relational (JSON)
 - Then I started designing the JSON object.
@@ -25,13 +40,6 @@ Then I went deeper to gain information about CMS as a concept and what should it
 
 
 
-![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMWA.png)
-
-![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Modeler.png)
-
-![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/ContentManager.png)
-
-![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/Publisher.png)
 
 ![alt text](https://github.com/ramyhasaan/architecture-challenge/blob/main/artifacts/CMSGUI.png)
 
