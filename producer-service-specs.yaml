@@ -1,0 +1,58 @@
+openapi: 3.0.3
+info:
+  title: Producer Service
+  description: Marvel API
+  version: 1.0.0
+servers:
+  - url: 'http://localhost:8080/'
+
+paths:
+  /marvel/superheros:
+    get:
+      summary: List all Superheros
+      operationId: getAllHeros
+      tags:
+        - Inquiry
+      responses:
+        200:
+          description: Success Response, contains list of Heros.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SuperHero'
+        500:
+          description: Unexpected Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  schemas:
+    SuperHero:
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        power:
+          type: string
+        version:
+          type: number
+    Error:
+      type: object
+      properties:
+        reason:
+          type: string
+        summary:
+          type: string
+        details:
+          type: string
+
+  
