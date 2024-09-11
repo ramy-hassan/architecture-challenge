@@ -4,7 +4,7 @@ I will describe step by step how I went through the challenge and the output for
 
 ## Business Understanding
 Before starting any architecture dive, you should understand well the customer needs.
-I approache on of my firends which was working before in a service provider for travel agencies, and understand what they are doing who are the stackholder for this business.
+I approache one of my firends who was working before in a service provider for travel agencies, and understand what they are doing who are the stackholder for this business.
 
 ## CMS Understanding
 Then I went deeper to gain information about CMS as a concept and what should it provide.
